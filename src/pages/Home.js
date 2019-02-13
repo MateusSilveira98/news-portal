@@ -12,8 +12,8 @@ class Home extends Component {
       <Fragment>
         <h1>The guardians news</h1>
         {
-          this.props.news.results && this.props.news.results.length 
-            ? this.props.news.results.forEach(item => <NewsCard news={item}></NewsCard>)
+          this.props.news.results.length > 0
+            ? this.props.news.results.map(item => <NewsCard key={item.id} news={item}></NewsCard>)
             : <p>results not found</p>
         }
       </Fragment>

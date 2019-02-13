@@ -16,6 +16,9 @@ const allReducers = combineReducers({
 });
 const store = createStore(
   allReducers,
+  {
+    news: {results: []}
+  },
   allStoreEnhancers
 );
 

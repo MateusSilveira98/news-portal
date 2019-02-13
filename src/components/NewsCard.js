@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 class NewsCard extends Component {
+  constructor(props) {
+    super(props)
+  }
   render() {
-    console.log('newsCard', this.props)
     return (
       <article>
         <p>{this.props.news.sectionName}</p>
