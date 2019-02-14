@@ -15,3 +15,8 @@ body {
   text-decoration: none;
   font-family: "Guardian Text Egyptian Web",Georgia,serif
 }
+@media (max-width: 768px) {
+  * {
+    font-size: 0.8rem;
+  }
+}

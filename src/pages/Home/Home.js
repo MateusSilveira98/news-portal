@@ -52,7 +52,7 @@ class Home extends Component {
               className={!this.state.selectedSectionName ? 'filter active' : 'filter'}
               onClick={() => this.filterNews(null)}
             >
-              <span> Todos </span>
+              <span> All </span>
             </div>
             {
               this.state.sectionsName.map((sectionName, index) =>
