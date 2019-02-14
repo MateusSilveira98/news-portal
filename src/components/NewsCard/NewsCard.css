@@ -1,0 +1,29 @@
+.newsCard {
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+}
+.newsCard .header, .newsCard .footer {
+  padding: 1em;
+  width: 100%;
+}
+.newsCard .header {
+  border-radius: 4px 4px 0 0;
+  background: #c70000;
+}
+.newsCard .header .sectionName, .newsCard .header .title{
+  margin-bottom: 1em;
+}
+.newsCard .footer {
+  border-radius: 0 0 4px 4px;
+  background: #ae0000;
+  display: flex;
+  justify-content: space-between;
+}
+.newsCard .footer .link{
+  color: white;
+}
+.newsCard .footer .link:hover{
+  font-weight: bolder;
+}

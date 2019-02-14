@@ -1,0 +1,44 @@
+.main-header {
+  padding: 1em;
+  background: #052962;
+  width: 100%;
+}
+.main-header .title{
+  font-weight: bolder;
+  color: white;
+  font-size: 2rem;
+}
+.content {
+  margin-top: 5em;
+}
+.sectionsName {
+  width: 20%;
+  background: white;
+  padding: 1em;
+  position: fixed;
+}
+.sectionsName .title{
+  font-weight: bolder;
+}
+.sectionsName .filters {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 1em;
+}
+.sectionsName .filter{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sectionsName .filter.active span{
+  text-decoration: underline;
+  text-decoration-color: #c70000;
+  font-weight: bolder;
+}
+.sectionsName .filter:hover span{
+  font-weight: bolder;
+  cursor: pointer;
+}
