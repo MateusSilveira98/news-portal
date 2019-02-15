@@ -12,7 +12,7 @@ class NewsCard extends Component {
           </h1>
         </header>
         <footer className='footer'>
-          <span className='date'> {moment(this.props.news.webPublicationDate).format('DD/MM/YYYY h:mm:ss')}</span>
+          <span className='date'> {moment(this.props.news.webPublicationDate).format('DD/MM/YYYY hh:mm:ss')}</span>
           <a className='link' href={this.props.news.webUrl}  rel="noopener noreferrer" target="_blank">see the news</a>
         </footer>
       </article>

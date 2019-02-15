@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import NewsCard from './src/components/NewsCard';
+import NewsCard from '../src/components/NewsCard/NewsCard'
 
 const mockItem = {
   id: "football/live/2019/feb/13/tottenham-hotspur-v-borussia-dortmund-champions-league-live",
